@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+html{
+    font: normal 16pt Arial white;
+}
+
+body {
+    background-color: rgb(66, 66, 66);
+    margin: 0;
+}
+
+header{
+    position: fixed;
+    background: black;
+    width: 100vw;
+    height: 10vh;
+}
+
+main#principal{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+}
+
+div#breve {
+    background-color: black;
+    width: 85vw;
+    height: 85vh;
+    border-radius: 15px;
+    text-align: center;
+
+}
+
+div#breve h1 {
+    color: whitesmoke;
+    line-height: 95vh;
+}
+
+footer#rodape{
+    position: fixed;
+    background-color: black;
+    width: 100vw;
+    height: 10vh;
+}
