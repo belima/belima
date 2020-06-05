@@ -1,3 +1,8 @@
+ports:
+  - port: 45000
+
 tasks:
-  command: python3 -m http.server 45000
-  command: ssh -R belima:80:0.0.0.0:45000 serveo.net
+  - command: python3 -m http.server 45000
+    name: Static Server
+  - command: ssh -R belima:80:0.0.0.0:45000 serveo.net
+    name: Serveo SSH
